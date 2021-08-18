@@ -1160,5 +1160,5 @@ int main()
 ### 参考链接
 
 1. [博客园](https://www.cnblogs.com/komean/p/10700047.html)
-2. [一远阁](www.xisunyy.top)
+2. [一远阁](https://www.xisunyy.top)
 3. [C语言站](https://www.dotcpp.com/course/99)
