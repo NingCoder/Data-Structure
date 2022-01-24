@@ -26,7 +26,7 @@ void sqList::InitSq(sqList&sq){
     sq.length=size;
 }
 bool sqList::insertSq(int index,int val,sqList&sq){
-    if(index>sq.length||index<0||index>=MAXSIZE){
+    if(index>sq.length||index<0||sq.length>=MAXSIZE){
         return false;
     }
     for(int i=sq.length;i>index;--i){
