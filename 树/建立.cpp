@@ -64,7 +64,7 @@ void testBtree(){
     const int sz02=8;
     int node02[sz02]={0,3,1,2,6,4,5,7};
     //理论上的最大长2^n-1 因为会多出来一个0 所以直接是2^n
-    int maxSz02=2*(sz02)*(sz02);
+    int maxSz02=2*(sz02-1)*(sz02-1);
     int bTree02[maxSz02]={};
     creatBtree02(bTree02,node02,sz02);
     printBtree(bTree02,maxSz02,sz02,false);
